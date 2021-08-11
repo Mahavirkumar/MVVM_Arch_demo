@@ -1,4 +1,5 @@
-package com.android.mvvmretrofitjava;
+gipackage com.android.mvvmretrofitjava;
+//new branch created for multi branch pipeline
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -17,6 +18,8 @@ import com.android.mvvmretrofitjava.model.MovieModel;
 import com.android.mvvmretrofitjava.viewmodel.MovieListViewModel;
 
 import java.util.List;
+
+
 
 public class MainActivity extends AppCompatActivity implements MovieListAdapter.ItemClickListener {
 
